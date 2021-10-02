@@ -60,6 +60,16 @@ namespace SoftwareDevelopmentTechniquesWeek3
 
             s1 = new string(arrChar);
             Console.WriteLine(s1);
+
+            string s2 = "ABCDE";
+            Console.WriteLine("Result = {0}", s2.Substring(1, 2));
+
+            string[] strArr = s2.Split('C');
+            Console.WriteLine("Result = {0} {1}", strArr[0], strArr[1]);
+
+            string s3 = "ABCDE";
+            Console.WriteLine("Result = {0}", s3.ToLower());
+
         }
     }
 
